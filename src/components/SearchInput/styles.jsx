@@ -1,8 +1,8 @@
 export default theme => ({
   root: {
     alignItems: 'center',
-    backgroundColor: theme.palette.common.white,
-    border: `1px solid ${theme.palette.common.neutral}`,
+    backgroundColor: theme.palette.common.grey,
+    boxShadow: '0 2px 5px 0 rgba(0,0,0,.2)',
     borderRadius: '4px',
     display: 'flex',
     flexBasis: '420px',

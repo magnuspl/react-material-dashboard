@@ -5,12 +5,14 @@ export default {
     black,
     white,
     neutral: '#E4E7EB',
-    muted: '#9EA0A4'
+    muted: '#9EA0A4',
+    dark:  '#202124',
+    grey: '#4f545c'
   },
   primary: {
     contrastText: white,
-    main: '#0767DB',
-    light: '#F6F9FD',
+    main: '#7289da',
+    light: '#18191c',
     dark: '#0B48A0'
   },
   secondary: {
@@ -44,15 +46,15 @@ export default {
     dark: '#BF0E08'
   },
   text: {
-    primary: '#12161B',
-    secondary: '#66788A',
+    primary: '#9e9e9e',
+    secondary: '#9e9e9e',
     disabled: '#A6B1BB'
   },
   background: {
-    default: '#f8fafc',
+    default: '#36393f',
     dark: '#172B4D',
-    paper: white
+    paper: '#202124'
   },
-  border: '#DFE3E8',
-  divider: '#DFE3E8'
+  border: black,
+  divider: black
 };

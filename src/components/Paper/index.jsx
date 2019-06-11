@@ -20,7 +20,7 @@ const styles = theme => {
       borderRadius: 0
     },
     outlined: {
-      border: `1px solid ${theme.palette.border}`
+      boxShadow: '0 2px 5px 0 rgba(0,0,0,.2)'
     }
   };
 };
